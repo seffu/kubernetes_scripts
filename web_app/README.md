@@ -19,3 +19,43 @@ To create base64 username and password for the mongo-secret file. Replace the us
 echo -n username | base64
 echo -n password | base64
 ```
+Mongo ConfigMap creation
+```sh
+kubectl apply -f mongo-config.yaml
+```
+Mongo Secret creation
+```sh
+kubectl apply -f mongo-secret.yaml
+```
+MongoDB database creation
+```sh
+kubectl apply -f mongo.yaml
+```
+Node App creation
+```sh
+kubectl apply -f webapp.yaml
+```
+
+To confirm that all went well use the following commands
+```sh
+kubectl get all
+```
+```sh
+kubectl get configmap
+```
+```sh
+kubectl get secret
+```
+```sh
+kubectl describe secret/pod <podname/secretname>
+```
+```sh
+kubectl logs <podname> -f(stream logs)
+```
+
+```sh
+minikube ip
+```
+```sh
+kubectl get node -o wide
+```
