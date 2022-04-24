@@ -1,0 +1,27 @@
+# Key Value Pair
+Fruit: Pomegranate
+Vegetable: Carrot
+Liquid: Water
+Meat: Beef
+
+# Arrays/Lists(Ordered)
+Surats:
+- Fatiha
+- Nas
+- Falaq
+- Ikhlas
+
+# Dictionary/Map(Unordered)
+Banana:
+  Calories: 105
+  Fat: 0.4 g
+  Carbs: 27 g
+
+# Cocktail
+Family:
+- Hadija:
+    Hassan: First
+    Seffu: Second
+    Nasra: Third
+    Ashraf: Fourth
+     
